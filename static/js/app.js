@@ -1,30 +1,34 @@
 (function () {
     $(window).load(function () {
         $(document).ready(function () {
-            var map = new Datamap({
+            map = new Datamap({
                 element: document.getElementById('map-canvas'),
-                responsive: true,
+                responsive: false,
                 geographyConfig: {
-                    dataUrl: './static/data/af-all.topo.json'
+                    dataUrl: './static/data/pe-all.topo.json'
                 },
-                scope: 'afghan',
+                scope: 'per',
                 fills: {
                     defaultFill: '#bada55',
-                    someKey: '#fa0fa0'
                 },
-                data: {
-                    'AFG-1758': {fillKey: 'someKey'},
-                    'AFG-1747': {fillKey: 'someKey'}
-                },
+                // data: {
+                //     'AFG-1758': {fillKey: 'someKey'},
+                //     'AFG-1747': {fillKey: 'someKey'}
+                // },
                 setProjection: function(element) {
                     var projection = d3.geo.mercator()
-                        .center([66.166667, 34.4444])
-                        .scale(2200)
+                        .center([-76.1410154, -11.0674535]) // lng, lat
+                        .scale(1500)
                         .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
-                    var path = d3.geo.path().projection(projection);
+
+                    var path = d3.geo.path()
+                        .projection(projection);
+
                     return {path: path, projection: projection};
                 }
             });
+
+            map.legend();
 
             window.addEventListener('resize', function() { map.resize(); });
         });
