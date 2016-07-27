@@ -9,16 +9,16 @@
                     dataUrl: './data/pe-all.topo.json',
                     highlightBorderColor: '#000000',
                     popupTemplate: function(geography, data) {
-                        return '<div class="hoverinfo">' + geography.properties.name + 'Electoral Votes:' +  data.electoralVotes + ' '
+                        return ['<div class="hoverinfo"><b>' + geography.properties.name + '</b><br/>' + 'Electoral Votes:' +  data.electoralVotes + '</div>'].join('');
                         },
                          highlightBorderWidth: 1
                     },
                 fills: {
                         defaultFill: '#bada55',
                         'Republican': '#CC4731',
-                      'Democrat': '#306596',
-                      'Heavy Democrat': '#667FAF',
-                      'Light Democrat': '#A9C0DE'
+                          'Democrat': '#306596',
+                          'Heavy Democrat': '#667FAF',
+                          'Light Democrat': '#A9C0DE'
                 },
                 data:{
                           "PE.LB": {
@@ -26,6 +26,18 @@
                               "electoralVotes": 5
                           },
                           "PE.TU": {
+                              "fillKey": "Light Democrat",
+                              "electoralVotes": 5
+                          },
+                          "PE.AP": {
+                              "fillKey": "Light Democrat",
+                              "electoralVotes": 5
+                          },
+                          "PE.AR": {
+                              "fillKey": "Light Democrat",
+                              "electoralVotes": 5
+                          },
+                          "PE.CS": {
                               "fillKey": "Light Democrat",
                               "electoralVotes": 5
                           }
@@ -47,7 +59,7 @@
                 }
             });
 
-            map.legend();
+            //map.legend();
             map.labels();
             window.addEventListener('resize', function() { map.resize(); });
         });
