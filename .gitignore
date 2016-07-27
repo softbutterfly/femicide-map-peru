@@ -1,0 +1,9 @@
+# Directories Patterns
+.ipynb_checkpoints
+.stversions
+.syncthing
+
+# Files Patterns
+.stignoreglobal
+.stignore
+.stfolder
