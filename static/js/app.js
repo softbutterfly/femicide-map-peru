@@ -1,10 +1,12 @@
+var map;
+
 (function() {
     $(window).load(function() {
         $(document).ready(function() {
             var mapCenter = [-74.9919444444, -9.18875] // lng, lat
             var mapOptions = {
                 element: document.getElementById('map-canvas'),
-                responsive: false,
+                responsive: true,
                 geographyConfig: {
                     dataUrl: 'static/data/peru_topo.json',
                     popupTemplate: function(geography, data) {
@@ -59,7 +61,12 @@
 
             var mapData;
             var mapFills = {
-                defaultFill: '#e0e0e0',
+                defaultFill: "#e0e0e0",
+                level1: "#ffcdd2", //  0 - 15
+                level2: "#e57373", // 16 - 30
+                level3: "#f44336", // 31 - 45
+                level4: "#d32f2f", // 46 - 60
+                level5: "#b71c1c", // 60 <
             };
 
             var statsURL = "static/data/femicide_stats.json";
@@ -87,16 +94,35 @@
                     minA = Math.min(attempted);
                     maxA = Math.max(attempted);
 
-                    maxE = maxF + maxA;
-                    minE = minF + minF;
-                    console.log(femicides);
+                    legend = "femicides";
+                    // legend = "attempted";
+
+                    keys.forEach(function (key) {
+                        if (mapData[key][legend] <= 15) {
+                            mapData[key]["fillKey"] = "level1";
+                        }
+                        else if (15 < mapData[key][legend] && mapData[key][legend] <= 30) {
+                            mapData[key]["fillKey"] = "level2";
+                        }
+                        else if (30 < mapData[key][legend] && mapData[key][legend] <= 45) {
+                            mapData[key]["fillKey"] = "level3";
+                        }
+                        else if (45 < mapData[key][legend] && mapData[key][legend] <= 60) {
+                            mapData[key]["fillKey"] = "level4";
+                        }
+                        else if (60 < mapData[key][legend]) {
+                            mapData[key]["fillKey"] = "level5";
+                        }
+                    });
+
+                    console.log(mapData);
                     console.log(attempted);
 
                     mapOptions.data = mapData;
                     mapOptions.fills = mapFills
                 });
 
-            var map = new Datamap(mapOptions);
+            map = new Datamap(mapOptions);
 
             window.addEventListener('resize', function() { map.resize(); });
         });
