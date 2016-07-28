@@ -1,0 +1,134 @@
+{
+    "title": "Femicidio en Perú",
+    "period": [
+        2009,
+        2016
+    ],
+    "stats": {
+        "PE.AM": {
+            "department": "Amazonas",
+            "femicides": 7,
+            "tentatives": 26
+        },
+        "PE.AN": {
+            "department": "Ancash",
+            "femicides": 33,
+            "tentatives": 38
+        },
+        "PE.AP": {
+            "department": "Apurímac",
+            "femicides": 6,
+            "tentatives": 9
+        },
+        "PE.AR": {
+            "department": "Arequipa",
+            "femicides": 60,
+            "tentatives": 60
+        },
+        "PE.AY": {
+            "department": "Ayacucho",
+            "femicides": 41,
+            "tentatives": 39
+        },
+        "PE.CJ": {
+            "department": "Cajamarca",
+            "femicides": 19,
+            "tentatives": 22
+        },
+        "PE.CL": {
+            "department": "Callao",
+            "femicides": 24,
+            "tentatives": 34
+        },
+        "PE.CS": {
+            "department": "Cusco",
+            "femicides": 35,
+            "tentatives": 42
+        },
+        "PE.HV": {
+            "department": "Huancavelica",
+            "femicides": 8,
+            "tentatives": 24
+        },
+        "PE.HC": {
+            "department": "Huánuco",
+            "femicides": 23,
+            "tentatives": 38
+        },
+        "PE.IC": {
+            "department": "Ica",
+            "femicides": 16,
+            "tentatives": 31
+        },
+        "PE.JU": {
+            "department": "Junín",
+            "femicides": 46,
+            "tentatives": 57
+        },
+        "PE.LL": {
+            "department": "La Libertad",
+            "femicides": 27,
+            "tentatives": 39
+        },
+        "PE.LB": {
+            "department": "Lambayeque",
+            "femicides": 24,
+            "tentatives": 7
+        },
+        "PE.LR": {
+            "department": "Lima",
+            "femicides": 293,
+            "tentatives": 277
+        },
+        "PE.LO": {
+            "department": "Loreto",
+            "femicides": 8,
+            "tentatives": 24
+        },
+        "PE.MD": {
+            "department": "Madre de Dios",
+            "femicides": 7,
+            "tentatives": 8
+        },
+        "PE.MQ": {
+            "department": "Moquegua",
+            "femicides": 6,
+            "tentatives": 4
+        },
+        "PE.PA": {
+            "department": "Pasco",
+            "femicides": 12,
+            "tentatives": 21
+        },
+        "PE.PI": {
+            "department": "Piura",
+            "femicides": 24,
+            "tentatives": 27
+        },
+        "PE.PU": {
+            "department": "Puno",
+            "femicides": 43,
+            "tentatives": 36
+        },
+        "PE.SM": {
+            "department": "San Martín",
+            "femicides": 11,
+            "tentatives": 27
+        },
+        "PE.TA": {
+            "department": "Tacna",
+            "femicides": 24,
+            "tentatives": 10
+        },
+        "PE.TU": {
+            "department": "Tumbes",
+            "femicides": 4,
+            "tentatives": 8
+        },
+        "PE.UC": {
+            "department": "Ucayali",
+            "femicides": 11,
+            "tentatives": 13
+        }
+    }
+}

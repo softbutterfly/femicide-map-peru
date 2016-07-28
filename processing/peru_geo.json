@@ -1,36 +1,19 @@
 {
-    "title": "Peru",
+    "hc-transform": {
+        "default": {
+            "xoffset": 127569.914462,
+            "yoffset": 2086634.05039,
+            "jsonres": 15.5,
+            "crs": "+proj=tmerc +lat_0=-9.5 +lon_0=-76 +k=0.99932994 +x_0=720000 +y_0=1039979.159 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+            "scale": 0.000344388016314,
+            "jsonmarginY": 9851.0,
+            "jsonmarginX": -999
+        }
+    },
+    "copyrightShort": "Natural Earth",
     "features": [
         {
-            "type": "Feature",
-            "properties": {
-                "woe-name": "Ica",
-                "hasc": "PE.IC",
-                "iso": "ICA",
-                "hc-middle-y": 0.52,
-                "alt-name": null,
-                "hc-middle-x": 0.49,
-                "woe-id": "2346478",
-                "longitude": "-75.6773",
-                "subregion": null,
-                "hc-group": "admin1",
-                "nute": 41011,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-ic",
-                "labelrank": "7",
-                "hc-a2": "IC",
-                "fips": "PE11",
-                "type-en": "Department",
-                "name": "Ica",
-                "woe-label": "Ica, PE, Peru",
-                "postal-code": "IC",
-                "country": "Peru",
-                "latitude": "-14.2257"
-            },
-            "id": "PE.IC",
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -274,39 +257,39 @@
                             761
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Cusco",
-                "hasc": "PE.CS",
-                "iso": "CUS",
-                "hc-middle-y": 0.49,
-                "alt-name": "Cuzco|Qosqo",
-                "hc-middle-x": 0.52,
-                "woe-id": "2346475",
-                "longitude": "-72.2479",
+                "labelrank": "7",
+                "fips": "PE11",
+                "woe-name": "Ica",
+                "region": null,
+                "alt-name": null,
+                "hasc": "PE.IC",
+                "latitude": "-14.2257",
+                "name": "Ica",
+                "woe-id": "2346478",
+                "type": "Departamento",
+                "postal-code": "IC",
+                "country": "Peru",
+                "nute": 41011,
+                "longitude": "-75.6773",
+                "hc-a2": "IC",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40808,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-cs",
-                "labelrank": "6",
-                "hc-a2": "CS",
-                "fips": "PE08",
+                "hc-middle-x": 0.49,
+                "hc-middle-y": 0.52,
+                "woe-label": "Ica, PE, Peru",
+                "hc-key": "pe-ic",
                 "type-en": "Department",
-                "name": "Cusco",
-                "woe-label": "Cusco, PE, Peru",
-                "postal-code": "CS",
-                "country": "Peru",
-                "latitude": "-13.1633"
+                "iso": "ICA"
             },
-            "id": "PE.CS",
+            "id": "PE.IC"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -746,39 +729,39 @@
                             3182
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Ucayali",
-                "hasc": "PE.UC",
-                "iso": "UCA",
-                "hc-middle-y": 0.79,
-                "alt-name": null,
-                "hc-middle-x": 0.59,
-                "woe-id": "2346492",
-                "longitude": "-73.24930000000001",
+                "labelrank": "6",
+                "fips": "PE08",
+                "woe-name": "Cusco",
+                "region": null,
+                "alt-name": "Cuzco|Qosqo",
+                "hasc": "PE.CS",
+                "latitude": "-13.1633",
+                "name": "Cusco",
+                "woe-id": "2346475",
+                "type": "Departamento",
+                "postal-code": "CS",
+                "country": "Peru",
+                "nute": 40808,
+                "longitude": "-72.2479",
+                "hc-a2": "CS",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40425,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-uc",
-                "labelrank": "4",
-                "hc-a2": "UC",
-                "fips": "PE25",
+                "hc-middle-x": 0.52,
+                "hc-middle-y": 0.49,
+                "woe-label": "Cusco, PE, Peru",
+                "hc-key": "pe-cs",
                 "type-en": "Department",
-                "name": "Ucayali",
-                "woe-label": "Ucayali, PE, Peru",
-                "postal-code": "UC",
-                "country": "Peru",
-                "latitude": "-9.99816"
+                "iso": "CUS"
             },
-            "id": "PE.UC",
+            "id": "PE.CS"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -1294,39 +1277,39 @@
                             3182
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Madre de Dios",
-                "hasc": "PE.MD",
-                "iso": "MDD",
-                "hc-middle-y": 0.58,
+                "labelrank": "4",
+                "fips": "PE25",
+                "woe-name": "Ucayali",
+                "region": null,
                 "alt-name": null,
-                "hc-middle-x": 0.47,
-                "woe-id": "2346484",
-                "longitude": "-70.6831",
+                "hasc": "PE.UC",
+                "latitude": "-9.99816",
+                "name": "Ucayali",
+                "woe-id": "2346492",
+                "type": "Departamento",
+                "postal-code": "UC",
+                "country": "Peru",
+                "nute": 40425,
+                "longitude": "-73.24930000000001",
+                "hc-a2": "UC",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40817,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-md",
-                "labelrank": "4",
-                "hc-a2": "MD",
-                "fips": "PE17",
+                "hc-middle-x": 0.59,
+                "hc-middle-y": 0.79,
+                "woe-label": "Ucayali, PE, Peru",
+                "hc-key": "pe-uc",
                 "type-en": "Department",
-                "name": "Madre de Dios",
-                "woe-label": "Madre de Dios, PE, Peru",
-                "postal-code": "MD",
-                "country": "Peru",
-                "latitude": "-11.8726"
+                "iso": "UCA"
             },
-            "id": "PE.MD",
+            "id": "PE.UC"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -1546,39 +1529,39 @@
                             3240
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "San Mart\u00edn",
-                "hasc": "PE.SM",
-                "iso": "SAM",
-                "hc-middle-y": 0.6,
-                "alt-name": "San Mart",
-                "hc-middle-x": 0.4,
-                "woe-id": "2346489",
-                "longitude": "-76.6238",
+                "labelrank": "4",
+                "fips": "PE17",
+                "woe-name": "Madre de Dios",
+                "region": null,
+                "alt-name": null,
+                "hasc": "PE.MD",
+                "latitude": "-11.8726",
+                "name": "Madre de Dios",
+                "woe-id": "2346484",
+                "type": "Departamento",
+                "postal-code": "MD",
+                "country": "Peru",
+                "nute": 40817,
+                "longitude": "-70.6831",
+                "hc-a2": "MD",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40222,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-sm",
-                "labelrank": "4",
-                "hc-a2": "SM",
-                "fips": "PE22",
+                "hc-middle-x": 0.47,
+                "hc-middle-y": 0.58,
+                "woe-label": "Madre de Dios, PE, Peru",
+                "hc-key": "pe-md",
                 "type-en": "Department",
-                "name": "San Mart\u00edn",
-                "woe-label": "San Martin, PE, Peru",
-                "postal-code": "SM",
-                "country": "Peru",
-                "latitude": "-7.30853"
+                "iso": "MDD"
             },
-            "id": "PE.SM",
+            "id": "PE.MD"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -1886,39 +1869,39 @@
                             5743
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Amazonas",
-                "hasc": "PE.AM",
-                "iso": "AMA",
-                "hc-middle-y": 0.48,
-                "alt-name": null,
-                "hc-middle-x": 0.38,
-                "woe-id": "2346468",
-                "longitude": "-77.9695",
+                "labelrank": "4",
+                "fips": "PE22",
+                "woe-name": "San Martín",
+                "region": null,
+                "alt-name": "San Mart",
+                "hasc": "PE.SM",
+                "latitude": "-7.30853",
+                "name": "San Martín",
+                "woe-id": "2346489",
+                "type": "Departamento",
+                "postal-code": "SM",
+                "country": "Peru",
+                "nute": 40222,
+                "longitude": "-76.6238",
+                "hc-a2": "SM",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40201,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-am",
-                "labelrank": "4",
-                "hc-a2": "AM",
-                "fips": "PE01",
+                "hc-middle-x": 0.4,
+                "hc-middle-y": 0.6,
+                "woe-label": "San Martin, PE, Peru",
+                "hc-key": "pe-sm",
                 "type-en": "Department",
-                "name": "Amazonas",
-                "woe-label": "Amazonas, PE, Peru",
-                "postal-code": "AM",
-                "country": "Peru",
-                "latitude": "-5.0485"
+                "iso": "SAM"
             },
-            "id": "PE.AM",
+            "id": "PE.SM"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -2182,39 +2165,39 @@
                             6693
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Loreto",
-                "hasc": "PE.LO",
-                "iso": "LOR",
-                "hc-middle-y": 0.48,
+                "labelrank": "4",
+                "fips": "PE01",
+                "woe-name": "Amazonas",
+                "region": null,
                 "alt-name": null,
-                "hc-middle-x": 0.38,
-                "woe-id": "2346483",
-                "longitude": "-73.88679999999999",
+                "hasc": "PE.AM",
+                "latitude": "-5.0485",
+                "name": "Amazonas",
+                "woe-id": "2346468",
+                "type": "Departamento",
+                "postal-code": "AM",
+                "country": "Peru",
+                "nute": 40201,
+                "longitude": "-77.9695",
+                "hc-a2": "AM",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40316,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-lo",
-                "labelrank": "4",
-                "hc-a2": "LO",
-                "fips": "PE16",
+                "hc-middle-x": 0.38,
+                "hc-middle-y": 0.48,
+                "woe-label": "Amazonas, PE, Peru",
+                "hc-key": "pe-am",
                 "type-en": "Department",
-                "name": "Loreto",
-                "woe-label": "Loreto, PE, Peru",
-                "postal-code": "LO",
-                "country": "Peru",
-                "latitude": "-4.27471"
+                "iso": "AMA"
             },
-            "id": "PE.LO",
+            "id": "PE.AM"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -3086,39 +3069,39 @@
                             4816
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Ayacucho",
-                "hasc": "PE.AY",
-                "iso": "AYA",
-                "hc-middle-y": 0.57,
+                "labelrank": "4",
+                "fips": "PE16",
+                "woe-name": "Loreto",
+                "region": null,
                 "alt-name": null,
-                "hc-middle-x": 0.41,
-                "woe-id": "2346472",
-                "longitude": "-73.9838",
+                "hasc": "PE.LO",
+                "latitude": "-4.27471",
+                "name": "Loreto",
+                "woe-id": "2346483",
+                "type": "Departamento",
+                "postal-code": "LO",
+                "country": "Peru",
+                "nute": 40316,
+                "longitude": "-73.88679999999999",
+                "hc-a2": "LO",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40905,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-ay",
-                "labelrank": "7",
-                "hc-a2": "AY",
-                "fips": "PE05",
+                "hc-middle-x": 0.38,
+                "hc-middle-y": 0.48,
+                "woe-label": "Loreto, PE, Peru",
+                "hc-key": "pe-lo",
                 "type-en": "Department",
-                "name": "Ayacucho",
-                "woe-label": "Ayacucho, PE, Peru",
-                "postal-code": "AY",
-                "country": "Peru",
-                "latitude": "-13.9245"
+                "iso": "LOR"
             },
-            "id": "PE.AY",
+            "id": "PE.LO"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -3510,39 +3493,39 @@
                             966
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Lima Provincia",
-                "hasc": "PE.LP",
-                "iso": "LMA",
-                "hc-middle-y": 0.33,
-                "alt-name": "Lima Metropolitana",
-                "hc-middle-x": 0.33,
-                "woe-id": 28358302,
-                "longitude": -76.9236,
+                "labelrank": "7",
+                "fips": "PE05",
+                "woe-name": "Ayacucho",
+                "region": null,
+                "alt-name": null,
+                "hasc": "PE.AY",
+                "latitude": "-13.9245",
+                "name": "Ayacucho",
+                "woe-id": "2346472",
+                "type": "Departamento",
+                "postal-code": "AY",
+                "country": "Peru",
+                "nute": 40905,
+                "longitude": "-73.9838",
+                "hc-a2": "AY",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40615,
-                "type": "Distrito Capital",
-                "region": null,
-                "hc-key": "pe-lp",
-                "labelrank": 9,
-                "hc-a2": "LP",
-                "fips": "PE26",
-                "type-en": "Captial District",
-                "name": "Lima Provincia",
-                "woe-label": "\u00c1rea Metropolitanan de Lima, PE, Peru",
-                "postal-code": null,
-                "country": "Peru",
-                "latitude": -12.1124
+                "hc-middle-x": 0.41,
+                "hc-middle-y": 0.57,
+                "woe-label": "Ayacucho, PE, Peru",
+                "hc-key": "pe-ay",
+                "type-en": "Department",
+                "iso": "AYA"
             },
-            "id": "PE.LP",
+            "id": "PE.AY"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -3658,39 +3641,39 @@
                             2490
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Huancavelica",
-                "hasc": "PE.HV",
-                "iso": "HUV",
-                "hc-middle-y": 0.48,
-                "alt-name": null,
-                "hc-middle-x": 0.54,
-                "woe-id": "2346476",
-                "longitude": "-75.0416",
+                "labelrank": 9,
+                "fips": "PE26",
+                "woe-name": "Lima Provincia",
+                "region": null,
+                "alt-name": "Lima Metropolitana",
+                "hasc": "PE.LP",
+                "latitude": -12.1124,
+                "name": "Lima Provincia",
+                "woe-id": 28358302,
+                "type": "Distrito Capital",
+                "postal-code": null,
+                "country": "Peru",
+                "nute": 40615,
+                "longitude": -76.9236,
+                "hc-a2": "LP",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40909,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-hv",
-                "labelrank": "7",
-                "hc-a2": "HV",
-                "fips": "PE09",
-                "type-en": "Department",
-                "name": "Huancavelica",
-                "woe-label": "Huancavelica, PE, Peru",
-                "postal-code": "HV",
-                "country": "Peru",
-                "latitude": "-13.0523"
+                "hc-middle-x": 0.33,
+                "hc-middle-y": 0.33,
+                "woe-label": "Área Metropolitanan de Lima, PE, Peru",
+                "hc-key": "pe-lp",
+                "type-en": "Captial District",
+                "iso": "LMA"
             },
-            "id": "PE.HV",
+            "id": "PE.LP"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -3930,39 +3913,39 @@
                             2701
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Jun\u00edn",
-                "hasc": "PE.JU",
-                "iso": "JUN",
-                "hc-middle-y": 0.43,
-                "alt-name": "Junnn",
-                "hc-middle-x": 0.53,
-                "woe-id": "2346479",
-                "longitude": "-74.96420000000001",
+                "labelrank": "7",
+                "fips": "PE09",
+                "woe-name": "Huancavelica",
+                "region": null,
+                "alt-name": null,
+                "hasc": "PE.HV",
+                "latitude": "-13.0523",
+                "name": "Huancavelica",
+                "woe-id": "2346476",
+                "type": "Departamento",
+                "postal-code": "HV",
+                "country": "Peru",
+                "nute": 40909,
+                "longitude": "-75.0416",
+                "hc-a2": "HV",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40712,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-ju",
-                "labelrank": "4",
-                "hc-a2": "JU",
-                "fips": "PE12",
+                "hc-middle-x": 0.54,
+                "hc-middle-y": 0.48,
+                "woe-label": "Huancavelica, PE, Peru",
+                "hc-key": "pe-hv",
                 "type-en": "Department",
-                "name": "Jun\u00edn",
-                "woe-label": "Jun\u00edn, PE, Peru",
-                "postal-code": "JU",
-                "country": "Peru",
-                "latitude": "-11.3744"
+                "iso": "HUV"
             },
-            "id": "PE.JU",
+            "id": "PE.HV"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -4230,39 +4213,39 @@
                             3468
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Lima",
-                "hasc": "PE.LR",
-                "iso": "LIM",
-                "hc-middle-y": 0.37,
-                "alt-name": "Lima province",
-                "hc-middle-x": 0.39,
-                "woe-id": "2346482",
-                "longitude": "-77.07559999999999",
+                "labelrank": "4",
+                "fips": "PE12",
+                "woe-name": "Junín",
+                "region": null,
+                "alt-name": "Junnn",
+                "hasc": "PE.JU",
+                "latitude": "-11.3744",
+                "name": "Junín",
+                "woe-id": "2346479",
+                "type": "Departamento",
+                "postal-code": "JU",
+                "country": "Peru",
+                "nute": 40712,
+                "longitude": "-74.96420000000001",
+                "hc-a2": "JU",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40615,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-lr",
-                "labelrank": "4",
-                "hc-a2": "LR",
-                "fips": "PE15",
+                "hc-middle-x": 0.53,
+                "hc-middle-y": 0.43,
+                "woe-label": "Junín, PE, Peru",
+                "hc-key": "pe-ju",
                 "type-en": "Department",
-                "name": "Lima",
-                "woe-label": "Lima, PE, Peru",
-                "postal-code": "LR",
-                "country": "Peru",
-                "latitude": "-11.0602"
+                "iso": "JUN"
             },
-            "id": "PE.LR",
+            "id": "PE.JU"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -4594,39 +4577,39 @@
                             3323
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Lambayeque",
-                "hasc": "PE.LB",
-                "iso": "LAM",
-                "hc-middle-y": 0.44,
-                "alt-name": null,
-                "hc-middle-x": 0.52,
-                "woe-id": "2346481",
-                "longitude": "-79.8994",
+                "labelrank": "4",
+                "fips": "PE15",
+                "woe-name": "Lima",
+                "region": null,
+                "alt-name": "Lima province",
+                "hasc": "PE.LR",
+                "latitude": "-11.0602",
+                "name": "Lima",
+                "woe-id": "2346482",
+                "type": "Departamento",
+                "postal-code": "LR",
+                "country": "Peru",
+                "nute": 40615,
+                "longitude": "-77.07559999999999",
+                "hc-a2": "LR",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40114,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-lb",
-                "labelrank": "4",
-                "hc-a2": "LB",
-                "fips": "PE14",
+                "hc-middle-x": 0.39,
+                "hc-middle-y": 0.37,
+                "woe-label": "Lima, PE, Peru",
+                "hc-key": "pe-lr",
                 "type-en": "Department",
-                "name": "Lambayeque",
-                "woe-label": "Lambayeque, PE, Peru",
-                "postal-code": "LB",
-                "country": "Peru",
-                "latitude": "-6.2514"
+                "iso": "LIM"
             },
-            "id": "PE.LB",
+            "id": "PE.LR"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -4778,39 +4761,39 @@
                             5637
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Tumbes",
-                "hasc": "PE.TU",
-                "iso": "TUM",
-                "hc-middle-y": 0.59,
-                "alt-name": "Tumbez",
-                "hc-middle-x": 0.56,
-                "woe-id": "2346491",
-                "longitude": "-80.6135",
+                "labelrank": "4",
+                "fips": "PE14",
+                "woe-name": "Lambayeque",
+                "region": null,
+                "alt-name": null,
+                "hasc": "PE.LB",
+                "latitude": "-6.2514",
+                "name": "Lambayeque",
+                "woe-id": "2346481",
+                "type": "Departamento",
+                "postal-code": "LB",
+                "country": "Peru",
+                "nute": 40114,
+                "longitude": "-79.8994",
+                "hc-a2": "LB",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40124,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-tu",
-                "labelrank": "7",
-                "hc-a2": "TU",
-                "fips": "PE24",
+                "hc-middle-x": 0.52,
+                "hc-middle-y": 0.44,
+                "woe-label": "Lambayeque, PE, Peru",
+                "hc-key": "pe-lb",
                 "type-en": "Department",
-                "name": "Tumbes",
-                "woe-label": "Tumbes, PE, Peru",
-                "postal-code": "TU",
-                "country": "Peru",
-                "latitude": "-3.88493"
+                "iso": "LAM"
             },
-            "id": "PE.TU",
+            "id": "PE.LB"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -4902,39 +4885,39 @@
                             7452
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Apur\u00edmac",
-                "hasc": "PE.AP",
-                "iso": "APU",
-                "hc-middle-y": 0.55,
-                "alt-name": "Apuromac",
-                "hc-middle-x": 0.53,
-                "woe-id": "2346470",
-                "longitude": "-72.9662",
+                "labelrank": "7",
+                "fips": "PE24",
+                "woe-name": "Tumbes",
+                "region": null,
+                "alt-name": "Tumbez",
+                "hasc": "PE.TU",
+                "latitude": "-3.88493",
+                "name": "Tumbes",
+                "woe-id": "2346491",
+                "type": "Departamento",
+                "postal-code": "TU",
+                "country": "Peru",
+                "nute": 40124,
+                "longitude": "-80.6135",
+                "hc-a2": "TU",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40903,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-ap",
-                "labelrank": "4",
-                "hc-a2": "AP",
-                "fips": "PE03",
+                "hc-middle-x": 0.56,
+                "hc-middle-y": 0.59,
+                "woe-label": "Tumbes, PE, Peru",
+                "hc-key": "pe-tu",
                 "type-en": "Department",
-                "name": "Apur\u00edmac",
-                "woe-label": "Apur\u00edmac, PE, Peru",
-                "postal-code": "AP",
-                "country": "Peru",
-                "latitude": "-14.0317"
+                "iso": "TUM"
             },
-            "id": "PE.AP",
+            "id": "PE.TU"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -5114,39 +5097,39 @@
                             1166
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Arequipa",
-                "hasc": "PE.AR",
-                "iso": "ARE",
-                "hc-middle-y": 0.49,
-                "alt-name": null,
-                "hc-middle-x": 0.68,
-                "woe-id": "2346471",
-                "longitude": "-72.4209",
+                "labelrank": "4",
+                "fips": "PE03",
+                "woe-name": "Apurímac",
+                "region": null,
+                "alt-name": "Apuromac",
+                "hasc": "PE.AP",
+                "latitude": "-14.0317",
+                "name": "Apurímac",
+                "woe-id": "2346470",
+                "type": "Departamento",
+                "postal-code": "AP",
+                "country": "Peru",
+                "nute": 40903,
+                "longitude": "-72.9662",
+                "hc-a2": "AP",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 41004,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-ar",
-                "labelrank": "6",
-                "hc-a2": "AR",
-                "fips": "PE04",
+                "hc-middle-x": 0.53,
+                "hc-middle-y": 0.55,
+                "woe-label": "Apurímac, PE, Peru",
+                "hc-key": "pe-ap",
                 "type-en": "Department",
-                "name": "Arequipa",
-                "woe-label": "Arequipa, PE, Peru",
-                "postal-code": "AR",
-                "country": "Peru",
-                "latitude": "-15.8757"
+                "iso": "APU"
             },
-            "id": "PE.AR",
+            "id": "PE.AP"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -5514,39 +5497,39 @@
                             1166
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Puno",
-                "hasc": "PE.PU",
-                "iso": "PUN",
-                "hc-middle-y": 0.41,
-                "alt-name": "Puno",
-                "hc-middle-x": 0.46,
-                "woe-id": 2346488,
-                "longitude": -69.9802,
+                "labelrank": "6",
+                "fips": "PE04",
+                "woe-name": "Arequipa",
+                "region": null,
+                "alt-name": null,
+                "hasc": "PE.AR",
+                "latitude": "-15.8757",
+                "name": "Arequipa",
+                "woe-id": "2346471",
+                "type": "Departamento",
+                "postal-code": "AR",
+                "country": "Peru",
+                "nute": 41004,
+                "longitude": "-72.4209",
+                "hc-a2": "AR",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 41121,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-pu",
-                "labelrank": 4,
-                "hc-a2": "PU",
-                "fips": "PE21",
+                "hc-middle-x": 0.68,
+                "hc-middle-y": 0.49,
+                "woe-label": "Arequipa, PE, Peru",
+                "hc-key": "pe-ar",
                 "type-en": "Department",
-                "name": "Puno",
-                "woe-label": "Puno, PE, Peru",
-                "postal-code": "PU",
-                "country": "Peru",
-                "latitude": -15.1677
+                "iso": "ARE"
             },
-            "id": "PE.PU",
+            "id": "PE.AR"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -6006,39 +5989,39 @@
                             2125
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Moquegua",
-                "hasc": "PE.MQ",
-                "iso": "MOQ",
-                "hc-middle-y": 0.42,
-                "alt-name": null,
-                "hc-middle-x": 0.49,
-                "woe-id": "2346485",
-                "longitude": "-70.7546",
+                "labelrank": 4,
+                "fips": "PE21",
+                "woe-name": "Puno",
+                "region": null,
+                "alt-name": "Puno",
+                "hasc": "PE.PU",
+                "latitude": -15.1677,
+                "name": "Puno",
+                "woe-id": 2346488,
+                "type": "Departamento",
+                "postal-code": "PU",
+                "country": "Peru",
+                "nute": 41121,
+                "longitude": -69.9802,
+                "hc-a2": "PU",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 41118,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-mq",
-                "labelrank": "7",
-                "hc-a2": "MQ",
-                "fips": "PE18",
+                "hc-middle-x": 0.46,
+                "hc-middle-y": 0.41,
+                "woe-label": "Puno, PE, Peru",
+                "hc-key": "pe-pu",
                 "type-en": "Department",
-                "name": "Moquegua",
-                "woe-label": "Moquegua, PE, Peru",
-                "postal-code": "MQ",
-                "country": "Peru",
-                "latitude": "-16.6807"
+                "iso": "PUN"
             },
-            "id": "PE.MQ",
+            "id": "PE.PU"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -6214,39 +6197,39 @@
                             -664
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Tacna",
-                "hasc": "PE.TA",
-                "iso": "TAC",
-                "hc-middle-y": 0.54,
+                "labelrank": "7",
+                "fips": "PE18",
+                "woe-name": "Moquegua",
+                "region": null,
                 "alt-name": null,
-                "hc-middle-x": 0.55,
-                "woe-id": "2346490",
-                "longitude": "-70.34229999999999",
+                "hasc": "PE.MQ",
+                "latitude": "-16.6807",
+                "name": "Moquegua",
+                "woe-id": "2346485",
+                "type": "Departamento",
+                "postal-code": "MQ",
+                "country": "Peru",
+                "nute": 41118,
+                "longitude": "-70.7546",
+                "hc-a2": "MQ",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 41123,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-ta",
-                "labelrank": "7",
-                "hc-a2": "TA",
-                "fips": "PE23",
+                "hc-middle-x": 0.49,
+                "hc-middle-y": 0.42,
+                "woe-label": "Moquegua, PE, Peru",
+                "hc-key": "pe-mq",
                 "type-en": "Department",
-                "name": "Tacna",
-                "woe-label": "Tacna, PE, Peru",
-                "postal-code": "TA",
-                "country": "Peru",
-                "latitude": "-17.5742"
+                "iso": "MOQ"
             },
-            "id": "PE.TA",
+            "id": "PE.MQ"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -6394,39 +6377,39 @@
                             -133
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Ancash",
-                "hasc": "PE.AN",
-                "iso": "ANC",
-                "hc-middle-y": 0.56,
-                "alt-name": "Ancachs",
-                "hc-middle-x": 0.56,
-                "woe-id": "2346469",
-                "longitude": "-77.6571",
+                "labelrank": "7",
+                "fips": "PE23",
+                "woe-name": "Tacna",
+                "region": null,
+                "alt-name": null,
+                "hasc": "PE.TA",
+                "latitude": "-17.5742",
+                "name": "Tacna",
+                "woe-id": "2346490",
+                "type": "Departamento",
+                "postal-code": "TA",
+                "country": "Peru",
+                "nute": 41123,
+                "longitude": "-70.34229999999999",
+                "hc-a2": "TA",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40502,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-an",
-                "labelrank": "4",
-                "hc-a2": "AN",
-                "fips": "PE02",
+                "hc-middle-x": 0.55,
+                "hc-middle-y": 0.54,
+                "woe-label": "Tacna, PE, Peru",
+                "hc-key": "pe-ta",
                 "type-en": "Department",
-                "name": "Ancash",
-                "woe-label": "Ancash, PE, Peru",
-                "postal-code": "AN",
-                "country": "Peru",
-                "latitude": "-9.539960000000001"
+                "iso": "TAC"
             },
-            "id": "PE.AN",
+            "id": "PE.TA"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -6686,39 +6669,39 @@
                             3612
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Cajamarca",
-                "hasc": "PE.CJ",
-                "iso": "CAJ",
-                "hc-middle-y": 0.71,
-                "alt-name": "Caxamarca",
-                "hc-middle-x": 0.51,
-                "woe-id": "2346473",
-                "longitude": "-78.6091",
+                "labelrank": "4",
+                "fips": "PE02",
+                "woe-name": "Ancash",
+                "region": null,
+                "alt-name": "Ancachs",
+                "hasc": "PE.AN",
+                "latitude": "-9.539960000000001",
+                "name": "Ancash",
+                "woe-id": "2346469",
+                "type": "Departamento",
+                "postal-code": "AN",
+                "country": "Peru",
+                "nute": 40502,
+                "longitude": "-77.6571",
+                "hc-a2": "AN",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40106,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-cj",
-                "labelrank": "7",
-                "hc-a2": "CJ",
-                "fips": "PE06",
+                "hc-middle-x": 0.56,
+                "hc-middle-y": 0.56,
+                "woe-label": "Ancash, PE, Peru",
+                "hc-key": "pe-an",
                 "type-en": "Department",
-                "name": "Cajamarca",
-                "woe-label": "Cajamarca, PE, Peru",
-                "postal-code": "CJ",
-                "country": "Peru",
-                "latitude": "-6.81775"
+                "iso": "ANC"
             },
-            "id": "PE.CJ",
+            "id": "PE.AN"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -7034,39 +7017,39 @@
                             5728
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Hu\u00e1nuco",
-                "hasc": "PE.HC",
-                "iso": "HUC",
-                "hc-middle-y": 0.5,
-                "alt-name": "Huknuco",
-                "hc-middle-x": 0.34,
-                "woe-id": "2346477",
-                "longitude": "-75.9161",
+                "labelrank": "7",
+                "fips": "PE06",
+                "woe-name": "Cajamarca",
+                "region": null,
+                "alt-name": "Caxamarca",
+                "hasc": "PE.CJ",
+                "latitude": "-6.81775",
+                "name": "Cajamarca",
+                "woe-id": "2346473",
+                "type": "Departamento",
+                "postal-code": "CJ",
+                "country": "Peru",
+                "nute": 40106,
+                "longitude": "-78.6091",
+                "hc-a2": "CJ",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40410,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-hc",
-                "labelrank": "7",
-                "hc-a2": "HC",
-                "fips": "PE10",
+                "hc-middle-x": 0.51,
+                "hc-middle-y": 0.71,
+                "woe-label": "Cajamarca, PE, Peru",
+                "hc-key": "pe-cj",
                 "type-en": "Department",
-                "name": "Hu\u00e1nuco",
-                "woe-label": "Hu\u00e1nuco, PE, Peru",
-                "postal-code": "HC",
-                "country": "Peru",
-                "latitude": "-9.592029999999999"
+                "iso": "CAJ"
             },
-            "id": "PE.HC",
+            "id": "PE.CJ"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -7378,39 +7361,39 @@
                             3801
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Callao",
-                "hasc": "PE.CL",
-                "iso": "CAL",
-                "hc-middle-y": 0.48,
-                "alt-name": "Region",
-                "hc-middle-x": 0.58,
-                "woe-id": "2346474",
-                "longitude": "-77.2248",
+                "labelrank": "7",
+                "fips": "PE10",
+                "woe-name": "Huánuco",
+                "region": null,
+                "alt-name": "Huknuco",
+                "hasc": "PE.HC",
+                "latitude": "-9.592029999999999",
+                "name": "Huánuco",
+                "woe-id": "2346477",
+                "type": "Departamento",
+                "postal-code": "HC",
+                "country": "Peru",
+                "nute": 40410,
+                "longitude": "-75.9161",
+                "hc-a2": "HC",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40607,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-3341",
-                "labelrank": "9",
-                "hc-a2": "CA",
-                "fips": "PE07",
-                "type-en": "Departamento",
-                "name": "Callao",
-                "woe-label": "Provincia Constitucional del Callao, PE, Peru",
-                "postal-code": null,
-                "country": "Peru",
-                "latitude": "-12.0859"
+                "hc-middle-x": 0.34,
+                "hc-middle-y": 0.5,
+                "woe-label": "Huánuco, PE, Peru",
+                "hc-key": "pe-hc",
+                "type-en": "Department",
+                "iso": "HUC"
             },
-            "id": "PE.CL",
+            "id": "PE.HC"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -7434,39 +7417,39 @@
                             2742
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "La Libertad",
-                "hasc": "PE.LL",
-                "iso": "LAL",
-                "hc-middle-y": 0.57,
-                "alt-name": "Libertad",
-                "hc-middle-x": 0.4,
-                "woe-id": "2346480",
-                "longitude": "-78.2813",
+                "labelrank": "9",
+                "fips": "PE07",
+                "woe-name": "Callao",
+                "region": null,
+                "alt-name": "Region",
+                "hasc": "PE.CL",
+                "latitude": "-12.0859",
+                "name": "Callao",
+                "woe-id": "2346474",
+                "type": "Departamento",
+                "postal-code": null,
+                "country": "Peru",
+                "nute": 40607,
+                "longitude": "-77.2248",
+                "hc-a2": "CA",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40513,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-ll",
-                "labelrank": "4",
-                "hc-a2": "LL",
-                "fips": "PE13",
-                "type-en": "Department",
-                "name": "La Libertad",
-                "woe-label": "La Libertad, PE, Peru",
-                "postal-code": "LL",
-                "country": "Peru",
-                "latitude": "-8.213340000000001"
+                "hc-middle-x": 0.58,
+                "hc-middle-y": 0.48,
+                "woe-label": "Provincia Constitucional del Callao, PE, Peru",
+                "hc-key": "pe-3341",
+                "type-en": "Departamento",
+                "iso": "CAL"
             },
-            "id": "PE.LL",
+            "id": "PE.CL"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -7806,39 +7789,39 @@
                             5728
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Pasco",
-                "hasc": "PE.PA",
-                "iso": "PAS",
-                "hc-middle-y": 0.43,
-                "alt-name": null,
-                "hc-middle-x": 0.61,
-                "woe-id": "2346486",
-                "longitude": "-75.4586",
+                "labelrank": "4",
+                "fips": "PE13",
+                "woe-name": "La Libertad",
+                "region": null,
+                "alt-name": "Libertad",
+                "hasc": "PE.LL",
+                "latitude": "-8.213340000000001",
+                "name": "La Libertad",
+                "woe-id": "2346480",
+                "type": "Departamento",
+                "postal-code": "LL",
+                "country": "Peru",
+                "nute": 40513,
+                "longitude": "-78.2813",
+                "hc-a2": "LL",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40719,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-pa",
-                "labelrank": "7",
-                "hc-a2": "PA",
-                "fips": "PE19",
+                "hc-middle-x": 0.4,
+                "hc-middle-y": 0.57,
+                "woe-label": "La Libertad, PE, Peru",
+                "hc-key": "pe-ll",
                 "type-en": "Department",
-                "name": "Pasco",
-                "woe-label": "Pasco, PE, Peru",
-                "postal-code": "PA",
-                "country": "Peru",
-                "latitude": "-10.3457"
+                "iso": "LAL"
             },
-            "id": "PE.PA",
+            "id": "PE.LL"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -8034,39 +8017,39 @@
                             3709
                         ]
                     ]
-                ]
-            }
-        },
-        {
+                ],
+                "type": "Polygon"
+            },
             "type": "Feature",
             "properties": {
-                "woe-name": "Piura",
-                "hasc": "PE.PI",
-                "iso": "PIU",
-                "hc-middle-y": 0.46,
+                "labelrank": "7",
+                "fips": "PE19",
+                "woe-name": "Pasco",
+                "region": null,
                 "alt-name": null,
-                "hc-middle-x": 0.55,
-                "woe-id": "2346487",
-                "longitude": "-80.2868",
+                "hasc": "PE.PA",
+                "latitude": "-10.3457",
+                "name": "Pasco",
+                "woe-id": "2346486",
+                "type": "Departamento",
+                "postal-code": "PA",
+                "country": "Peru",
+                "nute": 40719,
+                "longitude": "-75.4586",
+                "hc-a2": "PA",
                 "subregion": null,
                 "hc-group": "admin1",
-                "nute": 40120,
-                "type": "Departamento",
-                "region": null,
-                "hc-key": "pe-pi",
-                "labelrank": "7",
-                "hc-a2": "PI",
-                "fips": "PE20",
+                "hc-middle-x": 0.61,
+                "hc-middle-y": 0.43,
+                "woe-label": "Pasco, PE, Peru",
+                "hc-key": "pe-pa",
                 "type-en": "Department",
-                "name": "Piura",
-                "woe-label": "Piura, PE, Peru",
-                "postal-code": "PI",
-                "country": "Peru",
-                "latitude": "-5.09955"
+                "iso": "PAS"
             },
-            "id": "PE.PI",
+            "id": "PE.PA"
+        },
+        {
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -8338,30 +8321,47 @@
                             6936
                         ]
                     ]
-                ]
-            }
+                ],
+                "type": "Polygon"
+            },
+            "type": "Feature",
+            "properties": {
+                "labelrank": "7",
+                "fips": "PE20",
+                "woe-name": "Piura",
+                "region": null,
+                "alt-name": null,
+                "hasc": "PE.PI",
+                "latitude": "-5.09955",
+                "name": "Piura",
+                "woe-id": "2346487",
+                "type": "Departamento",
+                "postal-code": "PI",
+                "country": "Peru",
+                "nute": 40120,
+                "longitude": "-80.2868",
+                "hc-a2": "PI",
+                "subregion": null,
+                "hc-group": "admin1",
+                "hc-middle-x": 0.55,
+                "hc-middle-y": 0.46,
+                "woe-label": "Piura, PE, Peru",
+                "hc-key": "pe-pi",
+                "type-en": "Department",
+                "iso": "PIU"
+            },
+            "id": "PE.PI"
         }
     ],
-    "copyright": "Copyright (c) 2015 Highsoft AS, Based on data from Natural Earth",
-    "hc-transform": {
-        "default": {
-            "scale": 0.000344388016314,
-            "xoffset": 127569.914462,
-            "jsonres": 15.5,
-            "jsonmarginX": -999,
-            "yoffset": 2086634.05039,
-            "jsonmarginY": 9851.0,
-            "crs": "+proj=tmerc +lat_0=-9.5 +lon_0=-76 +k=0.99932994 +x_0=720000 +y_0=1039979.159 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs"
-        }
-    },
-    "type": "FeatureCollection",
-    "version": "1.1.2",
     "crs": {
         "type": "name",
         "properties": {
             "name": "urn:ogc:def:crs:EPSG:24892"
         }
     },
+    "type": "FeatureCollection",
+    "title": "Peru",
+    "version": "1.1.2",
     "copyrightUrl": "http://www.naturalearthdata.com",
-    "copyrightShort": "Natural Earth"
+    "copyright": "Copyright (c) 2015 Highsoft AS, Based on data from Natural Earth"
 }
