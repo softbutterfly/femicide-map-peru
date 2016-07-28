@@ -46,7 +46,7 @@
                 defaultFill: '#bada55',
             };
 
-            var statsURL = "/static/data/femicide_stats.json"
+            var statsURL = "static/data/femicide_stats.json";
             var jqxhr = $.getJSON( statsURL, function(data) {
                     // Getting data period
                     $(".period-begin").text(data.period[0]);
