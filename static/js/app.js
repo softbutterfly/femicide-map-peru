@@ -1,36 +1,52 @@
 (function() {
-    function ceilToNearestHundred(x) {
-        nH = 1;
-        while(x > 10) {
-            x = x/10;
-            nH *= 10;
-        }
-        nH = parseInt(x)*nH
-        console.log(nH,x)
-    }
-
     $(window).load(function() {
         $(document).ready(function() {
+            var mapCenter = [-74.9919444444, -9.18875] // lng, lat
             var mapOptions = {
                 element: document.getElementById('map-canvas'),
                 responsive: false,
                 geographyConfig: {
                     dataUrl: 'static/data/peru_topo.json',
-                    highlightBorderColor: '#000000',
                     popupTemplate: function(geography, data) {
                         return [
-                            '<div class="hoverinfo">',
-                            '<b>' + geography.properties.name + '</b>',
-                            '<br/>',
-                            'Electoral Votes:' + data.electoralVotes + '</div>'
+                            "<div class=\"hoverinfo\">",
+                                "<table>",
+                                    "<thead>",
+                                        "<tr>",
+                                            "<th colspan=\"2\">",
+                                            geography.properties.name,
+                                            "</th>",
+                                        "</tr>",
+                                    "</thead>",
+                                    "<tbody>",
+                                        "<tr>",
+                                            "<td>",
+                                                "<div class=\"femicide\">",
+                                                data.femicides,
+                                            "</td>",
+                                            "<td>",
+                                                "<div class=\"attempted\">",
+                                                data.attempted,
+                                            "</td>",
+                                        "</tr>",
+                                    "</tbody>",
+                                "</table>",
+                            "</div>",
                         ].join('');
                     },
-                    highlightBorderWidth: 1
+                    borderWidth: 2,
+                    borderColor: '#FFFFFF',
+                    popupOnHover: true,
+                    highlightOnHover: true,
+                    highlightBorderWidth: 2,
+                    highlightBorderColor: '#d50000',
+                    highlightFillColor: '#d50000',
+                    highlightBorderWidth: 2
                 },
                 scope: 'peru',
                 setProjection: function(element) {
                     var projection = d3.geo.mercator()
-                        .center([-74.9919444444, -9.18875]) // lng, lat
+                        .center(mapCenter)
                         .scale(4 * element.offsetWidth)
                         .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
 
@@ -42,8 +58,8 @@
             }
 
             var mapData;
-            var mapFillings = {
-                defaultFill: '#bada55',
+            var mapFills = {
+                defaultFill: '#e0e0e0',
             };
 
             var statsURL = "static/data/femicide_stats.json";
@@ -63,16 +79,21 @@
                     // Creating Filling Scale
                     keys = Object.keys(mapData);
                     femicides = keys.map(function(key){ return mapData[key]["femicides"]; });
-                    tentatives = keys.map(function(key){ return mapData[key]["tentatives"]; });
+                    attempted = keys.map(function(key){ return mapData[key]["attempted"]; });
 
                     minF = Math.min(femicides);
                     maxF = Math.max(femicides);
 
-                    minT = Math.min(tentatives);
-                    maxT = Math.max(tentatives);
+                    minA = Math.min(attempted);
+                    maxA = Math.max(attempted);
 
+                    maxE = maxF + maxA;
+                    minE = minF + minF;
                     console.log(femicides);
-                    console.log(tentatives);
+                    console.log(attempted);
+
+                    mapOptions.data = mapData;
+                    mapOptions.fills = mapFills
                 });
 
             var map = new Datamap(mapOptions);

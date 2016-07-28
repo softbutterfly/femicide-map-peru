@@ -19,35 +19,51 @@
         <link rel="stylesheet" type="text/css" href="./static/css/app.css">
     </head>
     <body class="grey lighten-5 grey-text text-darken-4 light">
-        <!-- header id="header" class="">
-            <nav class="amber z-depth-0">
-                <div class="nav-wrapper">
-                    <div class="container">
-                        <a href="#!" class="brand-logo left grey-text text-lighten-5 light">Feminicidios</a>
-                    </div>
-                </div>
-            </nav>
-        </header --><!-- /header -->
-
-        <main id="main" class="">
+        <header id="header" class="">
             <div class="container">
                 <div class="row"></div>
                 <div class="row">
                     <div class="col s12 center-align">
                         <h1 class="thin red-text">
                             Feminicidios en el Peru<br/>
-                            <small class="grey-text hiddendiv period">(<span class="period-begin">2009</span>-<span class="period-end">2016</span>)</small>
+                            <small class="light grey-text hiddendiv period">(<span class="period-begin">2009</span>-<span class="period-end">2016</span>)</small>
                         </h1>
                         <div class="divider red"></div>
                     </div>
-                    <div class="col s12 m3">
-                    </div>
-                    <div class="col s12 m6">
+                </div>
+            </div>
+        </header>
+
+        <main id="main" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
                         <div id="map-canvas">
+                            <table id="legend" class="legend">
+                                <thead>
+                                    <tr>
+                                        <th>Leyenda</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="femicide">
+                                            Femicidio
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="attempted">
+                                            Intento de Femicidio
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
-                    <div class="col s12 m3">
-                    </div>
+                    <div class="hiddendiv">Icons made by <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+                    <div class="hiddendiv">Icons made by <a href="http://www.flaticon.com/authors/anhgreen" title="AnhGreen">AnhGreen</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
                 </div>
             </div>
         </main><!-- /main -->
@@ -78,9 +94,8 @@
         </footer><!-- /footer -->
 
         <!-- script type="text/javascript" charset="utf-8" src="./static/js/d3.js"></script -->
-        <script type="text/javascript" charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
-        <script type="text/javascript" charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
-        <!-- script type="text/javascript" charset="utf-8" src="./static/js/datamaps.world.js"></script -->
+        <script type="text/javascript" charset="utf-8" src="./static/js/d3.js"></script>
+        <script type="text/javascript" charset="utf-8" src="./static/js/topojson.js"></script>
         <script type="text/javascript" charset="utf-8" src="./static/js/datamaps.per.js"></script>
 
         <script type="text/javascript" charset="utf-8" src="./static/js/jquery.js"></script>
@@ -90,3 +105,4 @@
         <script type="text/javascript" charset="utf-8" src="./static/js/app.js"></script>
     </body>
 </html>
+
