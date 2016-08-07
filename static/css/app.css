@@ -48,6 +48,14 @@ main {
     padding-left: 2rem;
 }
 
+#map-canvas-wrapper {
+    position: relative;
+    width: 280px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
 #map-canvas {
     width: 280px;
     height: 392px;
@@ -55,20 +63,6 @@ main {
     overflow: visible;
     display: block;
     margin: 0 auto;
-}
-
-@media only screen and (min-width: 601px) {
-    #map-canvas {
-        width: 400px;
-        height: 560px;
-    }
-}
-
-@media only screen and (min-width: 993px) {
-    #map-canvas {
-        width: 500px;
-        height: 700px;
-    }
 }
 
 #map-canvas svg {
@@ -84,9 +78,45 @@ main {
             transform: translate(-50%, -50%);
 }
 
-#legend {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    max-width: 180px;
+#map-legend {
+    max-width: 200px;
+}
+
+@media only screen and (min-width: 321px) {
+    #map-canvas-wrapper {
+        width: 300px;
+    }
+
+    #map-canvas {
+        width: 300px;
+        height: 420px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    #map-canvas-wrapper {
+        width: 400px;
+    }
+
+    #map-canvas {
+        width: 400px;
+        height: 560px;
+    }
+
+    #map-legend {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    #map-canvas-wrapper {
+        width: 500px;
+    }
+
+    #map-canvas {
+        width: 500px;
+        height: 700px;
+    }
 }

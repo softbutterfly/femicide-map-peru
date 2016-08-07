@@ -36,14 +36,13 @@ var map;
                             "</div>",
                         ].join('');
                     },
-                    borderWidth: 2,
-                    borderColor: '#FFFFFF',
+                    borderWidth: 1,
+                    borderColor: 'rgba(255,255,255,0)',
                     popupOnHover: true,
                     highlightOnHover: true,
-                    highlightBorderWidth: 2,
-                    highlightBorderColor: '#d50000',
                     highlightFillColor: '#d50000',
-                    highlightBorderWidth: 2
+                    highlightBorderColor: 'rgba(255,255,255,0)',
+                    highlightBorderWidth: 0
                 },
                 scope: 'peru',
                 setProjection: function(element) {
@@ -114,9 +113,6 @@ var map;
                             mapData[key]["fillKey"] = "level5";
                         }
                     });
-
-                    console.log(mapData);
-                    console.log(attempted);
 
                     mapOptions.data = mapData;
                     mapOptions.fills = mapFills
